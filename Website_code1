@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+      h1{
+          text-align:center;
+         
+      }
+      .fl_css {
+    float: right;
+    padding-left: 6%;
+    border: 2px solid black;
+    
+    background-color: #d6aaaa;
+    text-align: left;
+    padding-right: 8%;
+    margin-left: 73%;
+          
+      }
+      .box_css{
+          background-color:#fff6b3;
+          padding-left:6%;
+          padding-right:6%;
+          padding-bottom:4%;
+          border:2px solid black;
+          font-style:bold;
+      }
+      
+         @media only screen and (max-width: 767px) {
+  
+   .box_css{
+          background-color:#fff6b3;
+          padding-left:6%;
+          padding-right:6%;
+          padding-bottom:4%;
+          border:2px solid black;
+          font-style:bold;
+          margin-top:10%;
+      }
+}
+
+.fl_css1{
+    float: right;
+    padding-left: 6%;
+    border: 2px solid black;
+    background-color: #90e290;
+    text-align: left;
+    padding-right: 8%;
+    margin-left: 73%;
+}
+.fl_css2{
+    float: right;
+    padding-left: 6%;
+    border: 2px solid black;
+    background-color: #cecee2;
+    text-align: left;
+    padding-right: 8%;
+    margin-left: 73%;
+}
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+<div class="container-fluid">
+  <div class="row">
+      <div class = "col-md-12">
+    <div class="col-md-4 " >
+      <div class="fl_css ">Chicken</div>
+      <div class = "box_css">  The ultimate weeknight dinner, chicken recipes will never get boring with these 100 recipes. Whether it’s grilled, sautéed, baked, or roasted, everyone is sure to find a favorite in this collection.</div>
+    </div>
+     <div class="col-md-4" >
+      <div class="fl_css1 ">Mutton</div>
+      <div class = "box_css">  The ultimate weeknight dinner, chicken recipes will never get boring with these 100 recipes. Whether it’s grilled, sautéed, baked, or roasted, everyone is sure to find a favorite in this collection.</div>
+    </div>
+     <div class="col-md-4" >
+      <div class="fl_css2 ">Prawn</div>
+      <div class = "box_css">  The ultimate weeknight dinner, chicken recipes will never get boring with these 100 recipes. Whether it’s grilled, sautéed, baked, or roasted, everyone is sure to find a favorite in this collection.</div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
